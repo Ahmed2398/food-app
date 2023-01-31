@@ -1,0 +1,35 @@
+.banner-bg{
+    background: url('../../assets/banner.jpg') no-repeat center;
+    padding: 270px 0 150px;
+    background-size: cover;
+}
+
+.counter{
+    padding: 20px 0;
+    background-color: var(--primary-color1);
+
+    .icon-counter{
+        // width: 60px;
+        height: 60px;
+        width: 100%;
+    }
+    .number-counter{
+    color: #fff;
+    font-size: 40px;
+    // margin: 0 0 20px;
+    font-family: Quicksand;
+    font-weight: 700;
+    margin-bottom: 0;
+    text-align: center;
+
+    }
+    .text-counter{
+        color: #fff;
+        font-size: 18px;
+        font-family: Roboto;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-weight: 700;
+        text-align: center;
+    }
+}

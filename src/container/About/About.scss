@@ -1,0 +1,76 @@
+.about-food{
+    img{
+        border-radius: 10px;
+        width: 100%;
+        height: auto;
+    }
+}
+.watch{
+    background-image: url('../../assets/about_cinabon.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 450px;
+    padding-top: 50px;
+    border-radius: 10px;
+    text-align: center;
+
+    h1{
+        padding-top: 40px;
+        }
+        a{
+            color: var(--primary-color1);
+            outline: 0;
+            text-decoration: none;
+            transition: .4s;
+            font-size: 20px;
+            font-weight: 600;
+        }
+    }
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .banner-bg{
+        padding: 0;
+    }
+    .head-text{
+        font-size: 26px;
+    }
+    .button-one{
+        margin-bottom: 5px;
+    }
+    .button-out{
+        margin: 5px 0;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .button-one{
+        margin-bottom: 5px;
+    }
+    .button-out{
+        margin: 5px 0;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .button-one{
+        margin-bottom: 5px;
+    }
+    .button-out{
+        margin: 5px 0;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

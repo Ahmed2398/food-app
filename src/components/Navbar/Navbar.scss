@@ -1,0 +1,11 @@
+.navbar-nav{
+    justify-content:space-evenly;
+}
+.nav-link{
+    font-size: 15px;;
+    font-weight: 600;
+    color: var(--primary-color1) !important;
+}
+.nav-link:hover{
+    color: var(--primary-color2)!important;
+}

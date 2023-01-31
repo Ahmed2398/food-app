@@ -1,0 +1,24 @@
+.contact{
+    background-color: var(--primary-color1);
+    padding: 60px 0;
+    .head-text{
+        text-align: center;
+        color: #fff;
+
+    }
+    
+}
+.form-outline .form-control {
+    background-color: #fff;
+    padding: 1rem 0;
+    font-weight: 600;
+}
+.form-outline .form-control~.form-label{
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.form-outline .form-control:focus {
+    box-shadow: none !important;
+    font-size: 25px;
+}
